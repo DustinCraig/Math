@@ -29,6 +29,3 @@ def simpsons_rule_integration(a, b, n, f):
         i += 1
     result *= (delta_x*1/3)
     return result
-
-
-print(simpsons_rule_integration(1, 20, 100, lambda f: math.sin(f)))
